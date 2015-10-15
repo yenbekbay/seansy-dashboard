@@ -1,4 +1,4 @@
-# Seansy Dashboard
+# Seansy Dashboard [ ![Codeship Status for yenbekbay/seansy-dashboard](https://codeship.com/projects/1b67c340-5532-0133-6699-26e6b5453efb/status?branch=master)](https://codeship.com/projects/108913)
 
 A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Features appstore stats (average rating), mixpanel analytics (event count and people count), pingdom status, and a custom stats widget.
 
