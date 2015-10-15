@@ -1,6 +1,6 @@
 # Seansy Dashboard
 
-A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Features appstore stats (average rating), mixpanel analytics (event count and people count), pingdom status, and a custom stats widget. You will need a mixpanel account with the "People" feature turned on and a Pingdom account with at least one check to use the mixpanel and pingdom widgets.
+A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Features App Store stats (average rating), Mixpanel analytics (event count and people count), Pingdom status, and a custom stats widget. You will need a Mixpanel account with the "People" feature turned on and a Pingdom account with at least one check to use the Mixpanel and Pingdom widgets.
 
 ## Usage
 - Start by [installing Bundler](http://bundler.io) `sudo gem install bundler`
