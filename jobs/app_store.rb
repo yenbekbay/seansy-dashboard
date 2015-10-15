@@ -9,14 +9,13 @@ require 'json'
 # This job will track average vote score and number of votes
 # of your App by scraping the App Store website.
 
-# Config
-APP_ID = '980255991'
-APP_COUNTRY = 'kz'
+appId = ENV['APP_STORE_ID']
+appCountry = ENV['APP_STORE_COUNTRY']
 
 client = HTTPClient.new
 
 SCHEDULER.every '30m', :first_in => 0 do |job|
-  res = client.get("http://itunes.apple.com/lookup?id=#{APP_ID}&country=#{APP_COUNTRY}")
+  res = client.get("http://itunes.apple.com/lookup?id=#{appId}&country=#{appCountry}")
 
   if res.status != 200
     puts "App Store store website communication (status-code: #{res.status})\n#{res.content}"
