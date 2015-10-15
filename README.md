@@ -4,7 +4,7 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 
 ## Contents
 - [Usage](#usage)
-- [Sending Custom Stats to Your Dashboard)(#sending-custom-stats-to-your-dashboard)
+- [Sending Custom Stats to Your Dashboard](#sending-custom-stats-to-your-dashboard)
 
 ## Usage
 1. Start by [installing Bundler](http://bundler.io) `sudo gem install bundler`.
