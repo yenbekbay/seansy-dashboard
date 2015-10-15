@@ -1,0 +1,67 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #2A2A2A;
+$value-color:       #73AA3A;
+
+$title-color:       #8b8b8b;
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget styles
+// ----------------------------------------------------------------------------
+.widget-pingdomstatus {
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+  }
+
+  .status {
+    i {
+      float:left;
+      font-size: 72px;
+      line-height: 100px;
+      position: relative;
+      left: 50px;
+    }
+    .value {
+      font-size: 72px;
+      line-height: 100px;
+    }
+    .value-up{
+      color: #73aa3a;
+    }
+
+    .value-down{
+      color: #c94c4c;
+    }
+  }
+
+  .row {
+    width:100%;
+  }
+  .left {
+    float:left;
+    width:50%;
+  }
+  .right {
+    float:right;
+    width:49%;
+    border-left: 1px dotted #8b8b8b;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+    bottom: 12px;
+    p {
+      font-size:12px;
+      color: #8b8b8b;
+    }
+    .last-downtime, .response_time {
+      font-size:18px;
+      color: #CECFCF;
+    }
+  }
+
+}

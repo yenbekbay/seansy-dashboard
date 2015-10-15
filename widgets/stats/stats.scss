@@ -1,0 +1,26 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #ffd54f;
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-stats {
+
+  background-color: $background-color;
+
+  .showtimesCount {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .nowPlayingMoviesCount, .theatresCount {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
