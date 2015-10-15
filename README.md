@@ -9,7 +9,7 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 - `dashing start` to check that everything was installed correctly
 - Edit `dashboards/main.erb` to customize the layout of the main dashboard
 - Change `PINGDOM_CHECK_ID`, `APP_STORE_ID`, and `APP_STORE_COUNTRY` in `config.ru`
-- Edit `jobs/stats.erb`, `widgets/stats /stats.coffee`, `widgets/stats /stats.html`, and `widgets/stats /stats.scss` to customize the stats widget for your needs
+- Edit `jobs/stats.erb`, `widgets/stats/stats.coffee`, `widgets/stats/stats.html`, and `widgets/stats/stats.scss` to customize the stats widget for your needs
 - Don't forget to add the aforementioned constants to your production build. For heroku you can do `heroku config:set CONSTANT=value` for every constant.
 
 ## Sending Custom Stats to Your Dashboard
@@ -50,4 +50,4 @@ Otherwise, you can send data using curl:
 curl -d '{ "auth_token": "AUTH_TOKEN", "firstParam": "text", "secondParam": "text", "thirdParam": "text" }' http://localhost:3030/widgets/stats
 ```
 
-> Note: to edit the parameters you want to send to your stats widget, edit `jobs/stats.erb`, `widgets/stats /stats.coffee`, `widgets/stats /stats.html`, and `widgets/stats /stats.scss`
+> Note: to edit the parameters you want to send to your stats widget, edit `jobs/stats.erb`, `widgets/stats/stats.coffee`, `widgets/stats/stats.html`, and `widgets/stats/stats.scss`
