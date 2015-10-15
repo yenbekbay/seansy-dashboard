@@ -10,7 +10,7 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 - Edit `dashboards/main.erb` to customize the layout of the main dashboard
 - Change `PINGDOM_CHECK_ID`, `APP_STORE_ID`, and `APP_STORE_COUNTRY` in `config.ru`
 - Edit `jobs/stats.erb`, `widgets/stats/stats.coffee`, `widgets/stats/stats.html`, and `widgets/stats/stats.scss` to customize the stats widget for your needs
-- Don't forget to add the aforementioned constants to your production build. For heroku you can do `heroku config:set CONSTANT=value` for every constant.
+- Don't forget to add the aforementioned constants to your production build. For heroku you can do `heroku config:set CONSTANT=value --app <appname>` for every constant.
 
 ## Sending Custom Stats to Your Dashboard
 If you use node.js, check out [dashing client](https://github.com/benbria/dashing-client). With dashing client you can do:
