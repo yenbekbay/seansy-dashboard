@@ -4,7 +4,7 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 
 Usage:
 - Start by [installing Bundler](http://bundler.io) `sudo gem install bundler`
-- `touch .env` and add the following constants: `PINGDOM_API_KEY`, `PINGDOM_USER`, `PINGDOM_PASSWORD`, `MIXPANEL_API_KEY`, `MIXPANEL_API_SECRET`, `AUTH_TOKEN`, where `AUTH_TOKEN` is the token you will use to push data to the dashboard
+- Add the following environment variables to your build: `PINGDOM_API_KEY`, `PINGDOM_USER`, `PINGDOM_PASSWORD`, `MIXPANEL_API_KEY`, `MIXPANEL_API_SECRET`, `AUTH_TOKEN`, where `AUTH_TOKEN` is the token you will use to push data to the dashboard
 - `bundle install` and `dashing start`
 - Edit `dashboards/main.erb` to customize the layout of the main dashboard
 - Change `APP_ID` and `APP_COUNTRY` in `jobs/app_store.rb` to show the stats for your app
