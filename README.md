@@ -15,9 +15,9 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 ## Sending Custom Stats to Your Dashboard
 If you use node.js, check out [dashing client](https://github.com/benbria/dashing-client). With dashing client you can do:
 ```js
-DashingClient = require('dashing-client');
+var DashingClient = require('dashing-client');
 
-dashing = new DashingClient('http://localhost:3030', "AUTH_TOKEN");
+var dashing = new DashingClient('http://localhost:3030', "AUTH_TOKEN");
 dashing.send('stats', {
   firstParam: "text",
   secondParam: "text",
