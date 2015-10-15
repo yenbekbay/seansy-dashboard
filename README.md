@@ -8,6 +8,6 @@ A simple dashboard built with [Dashing](http://shopify.github.io/dashing/). Feat
 - `bundle install` to install dependencies
 - `dashing start` to check that everything was installed correctly
 - Edit `dashboards/main.erb` to customize the layout of the main dashboard
-- Change `PINGDOM_CHECK_ID`, `APP_ID`, and `APP_COUNTRY` in `config.ru`
+- Change `PINGDOM_CHECK_ID`, `APP_STORE_ID`, and `APP_STORE_COUNTRY` in `config.ru`
 - Edit `stats.erb` to customize the stats for your needs
 - Don't forget to add the aforementioned constants to your production build. For heroku you can do `heroku config:set CONSTANT=value` for every constant.
