@@ -50,4 +50,4 @@ Otherwise, you can send data using curl:
 curl -d '{ "auth_token": "AUTH_TOKEN", "firstParam": "text", "secondParam": "text", "thirdParam": "text" }' http://localhost:3030/widgets/stats
 ```
 
-> Note: to edit the parameters you want to send to your stats widget, edit `jobs/stats.erb`, `widgets/stats/stats.coffee`, `widgets/stats/stats.html`, and `widgets/stats/stats.scss`
+> Note: to edit the parameters you want to send to your stats widget, edit `jobs/stats.erb`, `widgets/stats/stats.coffee`, `widgets/stats/stats.html`, and `widgets/stats/stats.scss`. `AUTH_TOKEN` is the token you generate and declare in your .env or in your production environment.
